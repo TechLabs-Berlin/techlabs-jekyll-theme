@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="../../../assets/css/styles.css" />
-    {% feed_meta %} {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}" />
+    {% feed_meta %}
   </head>
   <body>
     {% include navigation.html %}
