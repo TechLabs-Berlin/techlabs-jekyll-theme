@@ -28,15 +28,13 @@ body {
 }
 
 a:link,
-a:visited {
-  text-decoration: none;
+a:visited {  
   color: rgba(0, 0, 0, 0.8);
 }
 a:hover {
   color: var(--primary);
 }
-a:active {
-  text-decoration: none;
+a:active {  
   color: rgba(0, 0, 0, 0.8);
 }
 
