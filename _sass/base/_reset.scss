@@ -28,13 +28,13 @@ body {
 }
 
 a:link,
-a:visited {  
+a:visited {
   color: rgba(0, 0, 0, 0.8);
 }
 a:hover {
   color: var(--primary);
 }
-a:active {  
+a:active {
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -64,12 +64,17 @@ img {
 }
 
 pre {
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word;
 }
 
 code {
   font-family: var(--text-code);
   color: black;
-  font-size: 1.45rem;
+  font-size: 1rem;
 }
 
 blockquote {
