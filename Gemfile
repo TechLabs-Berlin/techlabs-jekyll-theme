@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 gemspec
 
-# gem 'webrick'
+gem 'webrick'
 # gem "jekyll-remote-theme"
 
 
